@@ -6,13 +6,14 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 * Arthur Faria Lopes
 * Fernanda Soares Santos Paiva
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Anael Ferreira de Oliveira
+* Ana Clara Pereira Souza
+* David Gabriel Alves da Silva Ribeiro
+* Pedro Vaccaro de Souza Aragão
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
