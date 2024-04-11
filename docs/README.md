@@ -4,128 +4,179 @@ Esta pasta armazena a documentação do projeto para a disciplina de **Trabalho 
 
 A documentação do projeto inclui as seguintes seções:
 
-1. Introdução
-2. Contexto
-3. Concepção
-4. Metodologia
-5. Solução
-6. FAQ (Questões frequentes)
-7. Referências Bibliográficas
+1. Introdução	
+2. Problema
+3. Objetivos
+4. Justificativa
+5. Público alvo
+6. Especificações do Projeto
+7. Personas
+8. Histórias de usuários
+9. Requisitos do Projeto
+10. Requisitos Funcionais
+11. Requisitos não funcionais
+12. Metodologia
+13. Relação de Ambientes de Trabalho
+14. Gestão de código fonte
+15. Gerenciamento do Projeto
 
-O template para o site é estruturado e permite que a equipe evolua a documentação do projeto à medida que avance no desenvolvimento.
+
+
+
+
+
 
 # Orientações gerais
 
-Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
+Diversos animais são abandonados nas ruas diariamente. Muitas pessoas não têm condições para criar esses animais e acabam deixando-os em condições insalubres, vivendo nas ruas em meio à fome, às doenças e aos perigos. O abandono impacta diretamente a vida das pessoas, já que é responsável pela ocorrência de, por exemplo, problemas de saúde pública (proliferação de doenças).
+
+Além disso, sabe-se os impactos positivos de se ter a companhia de um animal de estimação. Adotar um animal pode ser uma forma de diminuir sentimentos de ansiedade e solidão, prática que pode ser feita por pessoas de diversas idades e com diversas histórias diferentes. A integração de um bichinho na família representa grande felicidade, não apenas para os humanos, mas também para os próprios animais. A adoção é um meio de resgatar vidas e oferecer um lar e uma vida saudável para animais que se tornam grandes amigos. Assim, é importante que haja uma plataforma que facilite esse processo e ofereça a comunicação necessária entre os entes que promoverão a adoção.
+
+Esse projeto busca, portanto, ser um mediador entre aqueles que desejam adotar um animal e os que os disponibilizam para serem adotados.
+
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Diante do exposto, o problema que se busca combater com este projeto é a existência de milhares de animais em situação de rua, bem como a dificuldade em proporcioná-los um lar afetuoso que possa criá-los de maneira adequada
 
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-**Links Úteis**:
-
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo geral deste trabalho é a criação de uma plataforma de adoção que possibilite a troca entre as pessoas que anunciarão animais disponíveis – gatos, cães, entre outros – e as pessoas que os adotarão, na cidade de Belo Horizonte.
 
-**Links Úteis**:
+Como objetivos específicos, podemos ressaltar:
+●	Apresentação dos perfis de cada animal a ser adotado, para que os adotantes conheçam suas características, que devem ser levadas em conta no processo de adoção, além dos dados necessários para a conclusão da adoção.
+●	Permitir a qualquer usuário a opção de anunciar a existência animais em situação de rua, informando-se o endereço onde foram encontrados, de modo a possibilitar seu resgate e posterior adoção.
+●	Permitir a filtragem do tipo de animal desejado, para que o usuário encontre de maneira mais rápida e fácil um bichinho que se adeque aos seus requisitos.
+●	Possibilitar um processo de adoção responsável e consciente, no qual os indivíduos envolvidos tenham as condições necessárias para adotar e cuidar de um animal de estimação, para garantir a ele uma melhor qualidade de vida.
 
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com a Organização Mundial da Saúde (OMS), no ano de 2022, havia cerca de 30 milhões de animais abandonados nas ruas do Brasil, dos quais 10 milhões são gatos e 20 milhões, cães. Em Belo Horizonte, a população de cães e gatos de rua era de cerca de 48 mil, no ano de 2023.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Campanhas para a adoção desses animais em situação de rua são, portanto, de extrema importância para combater esse cenário em Belo Horizonte. Assim, este projeto visa ser um facilitador para a adoção desses animais que se encontram em um estado de vulnerabilidade, além de possibilitar, também, a adoção de animais que qualquer usuário tenha disponíveis para tanto. Dessa forma, pode-se proporcionar um lar para diversos animais que precisam de cuidados e, além disso, auxiliar pessoas que tenham interesse em adquirir um bichinho de estimação.
 
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Pessoas de diversas idades e com diversos perfis podem ter interesse em adotar um animal. Entretanto, nosso público principal será composto por pessoas acima de 18 anos que gostem de animais e que tenham as devidas responsabilidades e adequada condição financeira para criar seu pet.  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+Desta forma, estabeleceu-se como público-alvo deste projeto pessoas maiores de 18 anos, que vivem em Belo Horizonte, e tenham interesse em adotar algum tipo de animal de estimação, desde que possuam condições adequadas para tanto, e que tenham ciência sobre toda a responsabilidade que se deve ter com seu novo companheiro
 
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+Nome: Renata Silva
+Idade: 35 anos
+Hobby: Fotografia de animais
+Trabalho: Veterinária
+Personalidade: Uma mulher alegre, confiante e descontraída.
+Sonhos: Criar um santuário para animais abandonados.
+Objetos e Lugares: Câmera fotográfica profissional, coleira com pingente com o nome da sua primeira cachorra adotada (Hanna).
+Objetivos Chave: Adotar um cachorrinho para poder cuidá-lo com todo amor e carinho e fazer um álbum de fotos dos seus momentos especiais, além de conseguir um companheiro para a Hanna. 
+Como tratá-la: Reconheça seu amor pelos animais e seja paciente, compreensivo e aja com total sinceridade. 
+Nunca devemos: Desrespeitar ou menosprezar seu compromisso com os animais. Não devemos ignorar suas preocupações e necessidades em relação aos animais.
 
-**Links Úteis**:
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-**Links Úteis**:
+Laura: Adotar um animal com o qual me identifique, me sentir mais alegre e menos sozinha.
+Lais:	Ter uma descrição clara dos PETS e do processo de adoção,	não ficar com dúvidas a esse respeito.
+Gabriel	Encontrar um novo lar para meu animal (Totty),	para que ele receba carinho e a atenção necessária.
+Renata	Adotar um cachorrinho	aumentar minha família e trazer um novo companheiro para minha cachorra (Hanna).
+Maria	Adotar um cachorro e chamá-lo de Max	ter um companheiro durante meus momentos de jardinagem e fotografia
+Sofia	Garantir que meu gatinho encontre um novo lar	para que ele receba os cuidados que precisa com alguém que possa cria-lo
+Matheus	Encontrar um cão alegre e brincalhão	me sentir menos sozinho e diminuir a frequência das crises que enfrento.
+Leonardo	Garantir que meu cão encontre um novo dono responsável	para que seu novo lar lhe proporcione o que atualmente não posso proporcionar.
 
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+
+
 
 ## Requisitos
 
 Os requisitos de um projeto são classificados em dois grupos:
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+RF-01: O site deve ser um facilitador para o processo de adoção de animais em Belo Horizonte /(prioridade) alta.
+RF-02: O site deve apresentar, para cada animal, um perfil contendo suas características gerais e uma foto /(prioridade) alta.
+RF-03: O site deve permitir aos adotantes a visualização do perfil de quem realiza as postagens de doação e suas informações de contato, com o objetivo de trazer maior segurança ao adotante /(prioridade) alta.
+RF-04: O site deve permitir a criação de postagens que informem os usuários sobre a existência de algum animal em situação de rua ou que precise de cuidados, em Belo Horizonte /(prioridade) alta.
+RF-05: O site deve permitir a criação de perfis caracterizados/identificados como ONGs /(prioridade) media.
+RF-06: O site deve possuir informação sobre a adoção responsável/consciente /(prioridade) media.
+RF-07: O site deve ter uma página com dicas de cuidados importantes para os pets e histórias de pessoas que conseguiram adotar /(prioridade) baixa.
+RF-08: O site deve possuir ferramentas de edição para criar, modificar e excluir conteúdo /(prioridade) alta.
+RF-09: O site deve permitir que o usuário faça pesquisas para encontrar o conteúdo desejado /(prioridade) media.
+RF-10: O site deve permitir que os usuários criem seu cadastro e façam login na sua conta /(prioridade) alta.
+RF-11: O site deve possuir a opção de editar dados pessoais do perfil de cada usuário (senha, número de contato, e-mail, entre outros) /(prioridade) alta.
+RF-12: O site deve possibilitar a opção de ser um adotante e a opção de anunciar um animal a ser adotado /(prioridade) alta.
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-**Links Úteis**:
-
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
+O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto
 **Links Úteis**:
 
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![WhatsApp Image 2024-04-11 at 13 18 01](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/9e6c2d6b-b9f4-41a3-b8a4-1492b7fc119f)
+
+
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+●	Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+●	Conteúdo - apresenta o conteúdo da tela em questão;
+●	Barra lateral - apresenta os elementos de navegação secundária
+
 
 **Links Úteis**:
 
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+
+- ![wrf1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/d2964ebf-ed82-4cf6-80fe-ec70ccd6f254)
+![wrf2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/53797a0e-21fb-4889-8b6a-fc02395497be)
+![wrf3](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/ee96d079-2c6e-45fb-8b16-70b8c71b8f4e)
+![wrf4](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/50875e52-bcae-4b1e-ad56-4d7f32ed90a0)
+![wrf5](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/0e48f069-a40f-4c1e-8f9c-8cc96836a4c1)
+![wrf6](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/91ef3966-9d0f-4caf-a1a0-e3a440889edd)
+![wrf7](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/50bef2c1-5fd2-4c68-b493-54c7dec7779f)
+![wrf8](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/b853bc09-7c03-4c7e-8e5b-b63c41bcb8c2)
+![wrf9](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/9dbb4c8d-92d3-429e-9868-b9cd7c0684f7)
+![wrf10](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/546743b7-6cbb-4232-999f-4e823f59181f)
+![wrf11](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/0b91b197-73e2-410f-b9a0-c9ac1e81c9f3)
+![wrf12](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/af66eadf-1cb0-43f8-809a-ed0faa21e8e5)
+![wrf13](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/ca70e1c0-a231-4c21-94fc-9e1fad4fe099)
+![wrf14](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/ac10f6d2-e4a1-4376-b90f-4c73c815217a)
+![wrf15](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/0a39d686-d775-4ed6-8ceb-80aa1d0d1417)
+![wrf16](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/eef89aaf-7b5b-4185-a548-66449e2cd120)
+![wrf17](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/d63f5461-8c2b-474d-a265-c424b9f15af2)
+![wrf18](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/9d28859b-3d72-459e-84a0-2847326f7d2a)
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+ NA equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+A equipe está organizada da seguinte maneira:
+●	Scrum Master: Arthur Faria Lopes
+●	Product Owner: Pedro Vaccaro de Souza Aragão
+●	Equipe de Desenvolvimento:
+○	Ana Clara Pereira Souza
+○	Fernanda Soares Santos Paiva
+○	Anael Ferreira de Oliveira
+○	Pedro Vaccaro de Souza Aragão 
+○	Arthur Faria Lopes
+○	David Gabriel Alves da Silva Ribeiro
 
-**Links Úteis**:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+●	Recursos: esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+●	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+●	To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+●	Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+●	Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+●	Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+●	Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
