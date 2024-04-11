@@ -1,6 +1,7 @@
 # Adote seu pet 
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O objetivo geral deste trabalho é a criação de uma plataforma de adoção que possibilite a troca entre as pessoas que anunciarão animais disponíveis – gatos, cães, entre outros – e as pessoas que os adotarão, na cidade de Belo Horizonte.
+ 
 
 ## Alunos integrantes da equipe
 
