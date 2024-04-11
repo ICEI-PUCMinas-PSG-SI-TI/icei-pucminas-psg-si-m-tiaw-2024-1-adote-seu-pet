@@ -79,6 +79,60 @@ Objetivos Chave: Adotar um cachorrinho para poder cuidá-lo com todo amor e cari
 Como tratá-la: Reconheça seu amor pelos animais e seja paciente, compreensivo e aja com total sinceridade. 
 Nunca devemos: Desrespeitar ou menosprezar seu compromisso com os animais. Não devemos ignorar suas preocupações e necessidades em relação aos animais.
 
+Nome: Matheus
+Idade: 18 anos
+Hobby: Compor poemas, ler livros e tocar instrumentos musicais.
+Trabalho: estudante
+Personalidade: Tímido, ama animais e plantas, carinhoso e humorista.
+Sonhos: Ir ao show de sua banda preferida e ter uma biblioteca em casa.
+Objetos e lugares: Usa apenas as redes sociais (Instagram e Netflix) no seu tempo livre gosta de fazer caminhadas e consumir conteúdo relacionados à natureza.
+Objetivos chaves: Matheus é autista nível 2 de suporte, tendo crises fortes de meltdown e shultdow. Por ser tímido e não conseguir interagir muito com as pessoas, tem apenas dois amigos, então um animal de estimação o ajudaria a ter menos crises. Ele pretende adotar um cachorro alegre e brincalhão para ser seu companheiro.
+Como tratá-lo: Tratá-lo educadamente e sempre disposto a ouvir suas necessidades.
+Nunca devemos: Matheus não gosta de pessoas que não cumprem seus serviços dentro do prazo estimado. É importante respeitar suas opiniões e efetuar a comunicação rápida e prática.
+
+Nome: Laura
+Idade:  20
+Hobby: ouvir música, ler livros
+Trabalho:  estudante de letras
+Personalidade: uma pessoa alegre, que ama os animais e que sempre se dedica bastante em tudo que faz. Atenciosa e gentil.
+Sonhos: conhecer vários lugares do mundo, trabalhar com o que ama.
+Objetos e lugares: usa as redes sociais (Instagram e Youtube) no seu tempo livre, consome conteúdos relacionados à arte e entretenimento. 
+Objetivos chave: Laura sofre de ansiedade e a companhia de um animal de estimação é extremamente benéfica para sua saúde mental. Ela pretende adotar um cãozinho dócil e carinhoso que possa ser um amigo para ela.
+Como tratá-la: atendê-la da melhor forma possível, sempre estando disposto a ouvir suas necessidades com o serviço e tratando-a cordialmente.
+Nunca devemos: Laura não gosta de pessoas que não cumprem sua palavra, oferecendo um serviço diferente do combinado. É importante respeitar suas opiniões e efetuar a comunicação com o cliente de maneira rápida e eficiente.
+
+Nome: Gabriel 
+Idade:  22
+Hobby: Jogar, andar de moto e sair à noite.
+Trabalho:  administração em uma concessionária.
+Personalidade: uma pessoa alegre, que gosta de animais.
+Sonhos: conhecer vários lugares do mundo viajando de moto 
+Objetos e lugares: Jogo no computador à noite quando chego da faculdade, ando de moto durante o dia indo pra faculdade depois do trabalho.
+Objetivos chave: Como trabalho o dia inteiro e a noite tenho aula, eu estou sentido que não estou conseguindo dar atenção suficiente ao Totty (meu cachorro) e acho que ele precisa de um novo lar.
+Como tratá-lo: Não enrolar muito, estou com pressa para achar uma nova casa para o Totty rápido 
+Nunca devemos: Ter uma agenda muito cheia, a intenção é que o Totty sempre fiquei com alguém.
+
+Nome: Sofia
+Idade: 27 anos
+Hobby: Fotografia e jardinagem
+Trabalho: Designer gráfica em uma agência de publicidade
+Personalidade: Sou uma pessoa criativa, gentil, paciente e tenho uma paixão pela arte. Gosto de passar tempo no ar livre, explorando novos lugares e capturando a beleza do mundo ao seu redor com minha câmera. 
+Sonhos: O meu maior sonho é viajar pelo mundo, capturando belas fotos e compartilhando minhas experiências com os outros através do meu trabalho artístico.
+Objetos e lugares: Tenho um apego especial com a minha câmera fotográfica. Adoro passar meu tempo livre assistindo séries ou fora de casa.
+Objetivo Chave: Quero encontrar um lar amoroso para meu gatinho, já que, devido às minhas viagens frequentes e ao ritmo agitado da minha carreira, sinto que não posso mais fornecer o tempo e a atenção que ele merece. Quero garantir que o Mancha (nome do gato) receba todo o cuidado e carinho que precisa em um novo lar.
+Como tratá-la: Ela aprecia sinceridade e autenticidade. Seria melhor abordá-la com gentileza e sempre respondendo com educação as dúvidas
+Nunca devemos: Não gosta que subestimem o valor de seu trabalho ou que debochem de si, além de que nunca devemos ignorar suas necessidades.
+
+Nome: Maria
+Idade: 68 anos
+Hobby: Jardinagem e fotografia
+Trabalho: Aposentada, mas continua a trabalhar como mentora de jovens fotógrafos.
+Personalidade: Maria é uma mulher serena e criativa, apaixonada por capturar a beleza da vida. Sua gentileza e paciência são evidentes em sua abordagem artística e em sua interação com os outros.
+Sonhos: Seu maior sonho é ter um cachorro para acompanhá-la em seu projeto de jardinagem, enquanto continua a inspirar outros com sua arte e sabedoria.
+Objetos e lugares: Maria guarda com carinho sua câmera fotográfica, sua ferramenta para capturar momentos preciosos. Ela passa seu tempo livre no jardim, onde encontra paz e inspiração.
+Objetivo Chave: Adotar um cachorro e chamá-lo de Max, para que ele possa ser seu fiel companheiro durante seus momentos de jardinagem e fotografia, enquanto continua a compartilhar sua paixão pela arte e a orientar novos talentos neste campo.
+Nunca devemos: Nunca devemos menosprezar a sabedoria e a experiência de Maria devido à sua idade. É importante reconhecer e valorizar sua contribuição contínua para a arte e para a comunidade, tanto como mentora quanto como artista.
+
 
 
 
