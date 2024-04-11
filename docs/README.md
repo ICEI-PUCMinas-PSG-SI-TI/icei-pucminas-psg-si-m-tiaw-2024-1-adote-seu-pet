@@ -68,7 +68,7 @@ Desta forma, estabeleceu-se como público-alvo deste projeto pessoas maiores de 
 
 ## Personas
 
-Nome: Renata Silva
+Nome: Renata Silva 
 Idade: 35 anos
 Hobby: Fotografia de animais
 Trabalho: Veterinária
