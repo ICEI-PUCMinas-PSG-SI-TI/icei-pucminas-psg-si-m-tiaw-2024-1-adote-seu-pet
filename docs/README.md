@@ -172,7 +172,7 @@ RF-12: O site deve possibilitar a opção de ser um adotante e a opção de anun
 
 ## User Flow
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto
+O diagrama apresentado na Figura mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse: (https://www.figma.com/proto/2FaY9BoDi90U6QzzLMIIeg/Adote-seu-Pet-Wireframes?node-id=2110-323&starting-point-node-id=2110%3A323)
 **Links Úteis**:
 
 ![WhatsApp Image 2024-04-11 at 13 18 01](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/9e6c2d6b-b9f4-41a3-b8a4-1492b7fc119f)
