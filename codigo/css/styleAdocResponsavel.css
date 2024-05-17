@@ -1,0 +1,203 @@
+#itens-menu {
+    margin: 0 auto;
+    
+}
+.hide{
+    display: none;
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #EE3CF1;
+    border-radius: 20px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+
+#menu {
+    background-color: #F7B9F9;
+}
+
+
+#menu button {
+    background-color: #EE3CF1;
+    color: white
+}
+
+#spbtn:hover{
+    background-color: #b72cb9;
+}
+
+/*aside img 2*/
+#imgaside2{
+    display: none;
+}
+/*Imagem Centro*/
+.imgcentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* centralizar verticalmente a imagem */
+    max-width: 100%;
+}
+
+.centered-image {
+    max-width: 100%; /* Definindo uma largura máxima para a imagem */
+    height: auto;
+    max-height: 400px;
+}
+
+.centered-image {
+    border-radius: 50%; /* Torna a imagem completamente redonda */
+}
+/*Texto da Página*/
+
+.texto h2 {
+
+    text-align: center; 
+}
+
+/*Barra de Pesquisa*/
+.search-container {
+    margin-top: 5px;
+    text-align: right;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #b72cb9;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnTema1, #btnTema2, #btnTema3{
+    margin: 20px
+}
+
+button:hover {
+    background-color: #F7B9F9;
+}
+
+/*arrumar menu mobile e aside*/
+@media screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link:hover {
+        background-color: #F7B9F9;
+    }
+
+    #logo,
+    #menu li {
+        margin: 0 auto;
+    }
+    #aside{
+       padding-top: 0;
+       margin: 0;
+    }
+    #aside h4{
+        text-align: center;
+    }
+    /*tira img1 e troca pela 2 no aside*/
+    #imgaside{
+        display: none;
+    }
+    #imgaside2{
+        display: block;
+        width: 270px;
+        border-radius: 100px;
+        margin: 0 auto;
+    }
+    #imgcentro{
+        max-width: 100%;
+    }
+}
+
+
+#aside a:hover{
+    color:#067217;
+    text-shadow:rgb(180, 167, 167) 2px 2px 2px;
+}
+
+#aside a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#aside li {
+    background-image: url(imagens/listaside.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+#aside h4 {
+    margin-bottom: 40px;
+    color: #067217;
+    text-shadow: rgb(180, 167, 167) 2px 2px 2px;
+    text-align: center;
+}
+
+#aside {
+    background-image: linear-gradient(#FFEDFF, white);
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+#imgaside{
+    width: auto;
+    
+}
+
+.asdlink:hover{
+    color:#067217;
+}
+
+
+/*padronizar texto principal do main*/
+.tit-main{
+    margin: 15px;
+}
+#divmain h5{
+    margin-top: 10px;
+}
+#adoc-email,#adoc-tel, #denunc-email, #denunc-tel{
+    margin: 5px;
+}
+#enviar-arquivoD, #enviar-arquivoAd{
+    background-color: #F7B9F9;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+#postarD, #postarAd{
+    background-color: #EE3CF1;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 30px;
+    position: sticky; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#postarD:hover{
+   background-color: #b72cb9;
+}
+#postarAd:hover{
+    background-color: #b72cb9;
+ }
