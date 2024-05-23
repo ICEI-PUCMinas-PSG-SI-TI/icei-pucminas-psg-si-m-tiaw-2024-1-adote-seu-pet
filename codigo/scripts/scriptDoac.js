@@ -1,7 +1,7 @@
 
 // // código do Rommel - ** ANÚNCIOS DE DOAÇÃO ** 
 
-// perguntas: como incluir foto enviada pelo usuario, arrumar problema de enviar (qnd seleciona a ft ele apaga o formulario antes de enviar)
+// perguntas: como incluir foto enviada pelo usuario
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (i = 0; i < objDadosAdoc.petAband.length; i++) {
       let novaAdoc = document.createElement('div');
       novaAdoc.classList.add('novaadoc');
-      novaAdoc.innerHTML = `<p>${objDadosAdoc.petAdoc[i].carac}</p>`;
+      novaAdoc.innerHTML = `  <img src="${objDadosAdoc.petAdoc[i].fotoAd}" alt="Foto do Pet" width="100"> <p>${objDadosAdoc.petAdoc[i].carac}</p>`; // img
       let btnDetalhesAdoc = document.createElement('button');
       btnDetalhesAdoc.innerHTML = '<a href="#">Ver detalhes</a>';
       btnDetalhesAdoc.classList.add('btnDetalhes');
@@ -56,7 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let strIdade = document.getElementById('idadepet').value;
     let strRaca = document.getElementById('raca').value;
     let strEndereco = document.getElementById('endereco-adoc').value;
-   // let strFotoAdoc = document.getElementById('enviar-arquivoAd').value;
+   // let fotoAd = document.getElementById('enviar-arquivoAd').files[0]; //
+
 
     let novaAdoc = {
       carac: strCaracAdoc,
@@ -74,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //att dados da tela
     imprimeAdoc();
-  }
+  } 
 
   // botão enviar
   // dps: validar se usuario enviou foto do pet tbm

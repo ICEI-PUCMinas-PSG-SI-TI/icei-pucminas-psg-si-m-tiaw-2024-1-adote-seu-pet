@@ -1,6 +1,6 @@
 
 
-//  ** DENÚNCIASR ABANDONO **
+//  ** DENÚNCIAS ABANDONO **
 
 document.addEventListener("DOMContentLoaded", function () {
 

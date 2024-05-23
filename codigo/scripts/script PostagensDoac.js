@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (i = 0; i < objDadosAdoc.petAdoc.length; i++) {
       let novaAdoc = document.createElement('div');
       novaAdoc.classList.add('novaadoc');
-      novaAdoc.innerHTML = `<p>${objDadosAdoc.petAdoc[i].carac}</p>`;
+      novaAdoc.innerHTML = `  <img src="${objDadosAdoc.petAdoc[i].fotoAd}" alt="Foto do Pet" width="100"> <p>${objDadosAdoc.petAdoc[i].carac}</p>`; // img
       let btnDetalhesAdoc = document.createElement('button');
       btnDetalhesAdoc.innerHTML = '<a href="#">Ver detalhes</a>';
       btnDetalhesAdoc.classList.add('btnDetalhes');
@@ -56,7 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let strIdade = document.getElementById('idadepet').value;
     let strRaca = document.getElementById('raca').value;
     let strEndereco = document.getElementById('endereco-adoc').value;
-   // let strFotoAdoc = document.getElementById('enviar-arquivoAd').value;
+   // let fotoAd = document.getElementById('enviar-arquivoAd').files[0];
+
+
 
     let novaAdoc = {
       carac: strCaracAdoc,

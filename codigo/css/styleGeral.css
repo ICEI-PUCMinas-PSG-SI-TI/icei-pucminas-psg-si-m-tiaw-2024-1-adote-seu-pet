@@ -211,7 +211,7 @@
     border: solid 1px #FFEDFF;
     min-width: 300px;
     min-height: 200px;
-    
+    overflow: auto;
 }
 
  
