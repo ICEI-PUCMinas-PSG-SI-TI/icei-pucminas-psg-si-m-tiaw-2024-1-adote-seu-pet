@@ -2,9 +2,8 @@
 
 //  ** DENÚNCIAS DE ABANDONO IMPRESSÃO **
 
-document.addEventListener("DOMContentLoaded", function () {
 
-  
+document.addEventListener("DOMContentLoaded", function () {
 
   function leDadosDen() {
     let strDados = localStorage.getItem('db');
@@ -20,9 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
           telAband: "3345-8795",
           emailAband: "renata45@gmail.com",
           fotoAband: ''
-        }
-        ]
-      }
+        }]
+      };
     }
     return objDadosDen;
   }
@@ -31,57 +29,43 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem('db', JSON.stringify(dados));
   }
 
- 
-  function incluirDen() {
-    let objDadosDen = leDadosDen();
-    let strInfo = document.getElementById('text-aband').value;
-    let strEmailDen = document.getElementById('denunc-email').value;
-    let strTelDen = document.getElementById('denunc-tel').value;
-    let strFoto = document.getElementById('enviar-arquivoD').value;
-
-
-    // como incluir a imagem enviada pelo usuario?
-    let novaDen = {
-      info: strInfo,
-      telAband: strTelDen,
-      emailAband: strEmailDen,
-      fotoAband: strFoto
-    };
-
-    objDadosDen.petAband.push(novaDen);
-    salvaDadosDen(objDadosDen);
-
-   
-    
-  }
-
-  function imprimeDen(e) {
+  function imprimeDen() {
     let tela = document.getElementById('divDenuncias');
     let objDadosDen = leDadosDen();
-    for (i = 0; i < objDadosDen.petAband.length; i++) {
+    for (let i = 0; i < objDadosDen.petAband.length; i++) {
       let novaDen = document.createElement('div');
       novaDen.classList.add('novaden');
-
-      //let fotoPet = document.createElement('img');
-     // fotoPet.setAttribute("id", "fotopet");
-     // fotoPet.setAttribute("src", "");
-     // novaDen.appendChild(fotoPet);
-
-      novaDen.innerHTML = `<p>${objDadosDen.petAband[i].info}</p>`;
+      novaDen.innerHTML = `${objDadosDen.petAband[i].fotoAband ? `<img src="${objDadosDen.petAband[i].fotoAband}" alt="Foto do Pet" width="200">` : ''} <p>${objDadosDen.petAband[i].info}</p>`;
       let btnDetalhesDen = document.createElement('button');
       btnDetalhesDen.innerHTML = '<a href="#">Ver detalhes</a>';
       btnDetalhesDen.classList.add('btnDetalhes');
       novaDen.appendChild(btnDetalhesDen);
       tela.appendChild(novaDen);
     }
+  }
 
+  function incluirDen(base64Image) {
+    let objDadosDen = leDadosDen();
+    let strInfo = document.getElementById('text-aband').value;
+    let strEmailDen = document.getElementById('denunc-email').value;
+    let strTelDen = document.getElementById('denunc-tel').value;
 
+    let novaDen = {
+      info: strInfo,
+      telAband: strTelDen,
+      emailAband: strEmailDen,
+      fotoAband: base64Image
+    };
+
+    objDadosDen.petAband.push(novaDen);
+    salvaDadosDen(objDadosDen);
+
+    imprimeDen();
   }
 
   
   imprimeDen();
-
-})
+});
 
 
 
