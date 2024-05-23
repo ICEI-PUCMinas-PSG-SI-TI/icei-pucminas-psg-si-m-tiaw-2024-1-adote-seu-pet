@@ -202,6 +202,7 @@
 #divDenuncias, #divDoacoes{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .novaden, .novaadoc{
@@ -209,9 +210,9 @@
     padding: 30px 25px 15px;
     text-align: center;
     border: solid 1px #FFEDFF;
-    min-width: 300px;
+    width: 400px;
     min-height: 200px;
-    overflow: auto;
+    word-wrap: break-word;
 }
 
  
@@ -220,8 +221,7 @@
     padding: 5px 10px;
     border: 0px;
     border-radius: 10px;
-    position: relative;
-    top: 50%;
+   
 }
 .btnDetalhes:hover{
     background-color: #b72cb9;
