@@ -1,10 +1,12 @@
-
 document.addEventListener("DOMContentLoaded", () => {
-    // Event listener for form submission on the registration page
+
+    // Inicializando o último ID utilizado a partir do localStorage ou 0 se não houver nenhum
+    let lastUserId = parseInt(localStorage.getItem('lastUserId')) || 0;
+
     const formCadastro = document.getElementById("formCadastro");
     if (formCadastro) {
         formCadastro.addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent the default form submission
+            event.preventDefault(); 
 
             const nome = document.getElementById("nomeCad").value;
             const telefone = document.getElementById("telCad").value;
@@ -18,7 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
+            
+            lastUserId++;
+            localStorage.setItem('lastUserId', lastUserId);
+
             const userData = {
+                id: lastUserId,
                 nome: nome,
                 telefone: telefone,
                 email: email,
@@ -33,11 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Event listener for form submission on the login page
+    
     const formLogin = document.getElementById("formLogin");
     if (formLogin) {
         formLogin.addEventListener("submit", function(event) {
-            event.preventDefault(); // Prevent the default form submission
+            event.preventDefault(); 
 
             const email = document.querySelector("[name='emailLog']").value;
             const senha = document.querySelector("[name='senhaLog']").value;
@@ -59,3 +66,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+

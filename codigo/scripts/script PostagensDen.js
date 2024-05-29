@@ -1,7 +1,4 @@
-
-
 //  ** DENÚNCIAS DE ABANDONO IMPRESSÃO **
-
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -14,11 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     else {
       objDadosDen = {
+        lastId: 1, 
         petAband: [{
+          id: 1, 
           info: "Cachorro encontrado na rua",
           telAband: "3345-8795",
           emailAband: "renata45@gmail.com",
-          fotoAband: ''
+          fotoAband: "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp"
         }]
       };
     }
@@ -35,9 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i < objDadosDen.petAband.length; i++) {
       let novaDen = document.createElement('div');
       novaDen.classList.add('novaden');
-      novaDen.innerHTML = `${objDadosDen.petAband[i].fotoAband ? `<img src="${objDadosDen.petAband[i].fotoAband}" alt="Foto do Pet" width="200">` : ''} <p>${objDadosDen.petAband[i].info}</p>`;
+      novaDen.innerHTML = `${objDadosDen.petAband[i].fotoAband ? `<img src="${objDadosDen.petAband[i].fotoAband}" alt="Foto do Pet" width="200">` : '<div class="semFtDen p-1 bg-dark-subtle"><p>Imagem não enviada pelo usuário.</p></div>'} <p>${objDadosDen.petAband[i].info}</p>`;
       let btnDetalhesDen = document.createElement('button');
-      btnDetalhesDen.innerHTML = '<a href="#">Ver detalhes</a>';
+      btnDetalhesDen.innerHTML = `<a href="../pages/perfilDetalhadoDEN.html?id=${objDadosDen.petAband[i].id}">Ver detalhes</a>`;
       btnDetalhesDen.classList.add('btnDetalhes');
       novaDen.appendChild(btnDetalhesDen);
       tela.appendChild(novaDen);
@@ -50,7 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let strEmailDen = document.getElementById('denunc-email').value;
     let strTelDen = document.getElementById('denunc-tel').value;
 
+    objDadosDen.lastId += 1; 
+    let newId = objDadosDen.lastId; 
+
     let novaDen = {
+      id: newId,
       info: strInfo,
       telAband: strTelDen,
       emailAband: strEmailDen,

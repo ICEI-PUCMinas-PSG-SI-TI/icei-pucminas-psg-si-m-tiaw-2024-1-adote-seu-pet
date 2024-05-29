@@ -1,7 +1,4 @@
-
-
 //  ** DENÚNCIAS ABANDONO **
-
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -13,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
       objDadosDen = JSON.parse(strDados);
     } else {
       objDadosDen = {
+        lastId: 1, 
         petAband: [{
+          id: 1, 
           info: "Cachorro encontrado na rua",
           telAband: "3345-8795",
           emailAband: "renata45@gmail.com",
-          fotoAband: ''
+          fotoAband: "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp"
         }]
       };
     }
@@ -34,7 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let strEmailDen = document.getElementById('denunc-email').value;
     let strTelDen = document.getElementById('denunc-tel').value;
 
+  
+    objDadosDen.lastId += 1; 
+    let newId = objDadosDen.lastId; 
+
     let novaDen = {
+      id: newId,  
       info: strInfo,
       telAband: strTelDen,
       emailAband: strEmailDen,
@@ -47,21 +51,18 @@ document.addEventListener("DOMContentLoaded", function () {
     imprimeDen();
   }
 
-
   const formDenunc = document.getElementById("formDenunc");
   const fileInput = document.getElementById("enviar-arquivoD");
 
   formDenunc.addEventListener('submit', (e) => {
     
-    
     if (document.getElementById('text-aband').value === "" || document.getElementById('denunc-email').value === "" || document.getElementById('denunc-tel').value === "") {
+      e.preventDefault(); 
       alert("Preencha todos os campos!");
-	e.preventDefault();
       return;
-    }  else{
+    } else {
       alert("Enviado!");
     }
-
 
     const file = fileInput.files[0];
 
@@ -77,9 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  
 });
-
 
 
 
