@@ -53,15 +53,18 @@ document.addEventListener("DOMContentLoaded", function () {
     let params = new URLSearchParams(location.search);
     let id = params.get('id');
    
-   // let userId = localStorage.getItem('lastUserId');
+   
    // let user = objDadosDen.petAband[userId-1].id;
-   //console.log(user)
-
+   
 
     postagem = objDadosDen.petAband.find(function (elem) { return elem.id == id });
     if (postagem) {
         let divInfo = document.getElementById('divInfoDen');
         divInfo.innerHTML = `<p class="txtDetalhes">${postagem.info}</p> <br><br> <p class="fw-bold fs-4">Informações de contato: </p> <p>Telefone: ${postagem.telAband}</p> <p>Email: ${postagem.emailAband} </p>`;
+
+
+        let divUser = document.getElementById('postadoPorDen');
+        divUser.innerHTML = `<p class="ms-4"></p>`
 
         var divFt = document.getElementById("divFotoDen");
         if(postagem.fotoAband){
