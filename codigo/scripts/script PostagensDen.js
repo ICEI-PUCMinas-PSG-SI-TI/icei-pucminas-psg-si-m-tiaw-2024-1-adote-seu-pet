@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
           info: "Cachorro encontrado na rua",
           telAband: "3345-8795",
           emailAband: "renata45@gmail.com",
-          fotoAband: "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp"
+          fotoAband: "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp",
+          autor: "Renata Campos"
         }]
       };
     }
@@ -43,6 +44,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function getLoggedInUser() {
+    const loggedInUserEmail = localStorage.getItem('loggedInUser');
+    if (loggedInUserEmail) {
+      return JSON.parse(localStorage.getItem(loggedInUserEmail));
+    }
+    return null;
+  }
+  
+  const user = getLoggedInUser();
+  if (user) {
+    console.log("Usuário logado:", user.nome);
+  } 
+
   function incluirDen(base64Image) {
     let objDadosDen = leDadosDen();
     let strInfo = document.getElementById('text-aband').value;
@@ -57,7 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
       info: strInfo,
       telAband: strTelDen,
       emailAband: strEmailDen,
-      fotoAband: base64Image
+      fotoAband: base64Image,
+      autor: user.nome
     };
 
     objDadosDen.petAband.push(novaDen);

@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Inicializando o último ID utilizado a partir do localStorage ou 0 se não houver nenhum
     let lastUserId = parseInt(localStorage.getItem('lastUserId')) || 0;
 
     const formCadastro = document.getElementById("formCadastro");
     if (formCadastro) {
-        formCadastro.addEventListener("submit", function(event) {
-            event.preventDefault(); 
+        formCadastro.addEventListener("submit", function (event) {
+            event.preventDefault();
 
             const nome = document.getElementById("nomeCad").value;
             const telefone = document.getElementById("telCad").value;
@@ -20,7 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            
+            // Verifica se o email já está cadastrado
+            if (localStorage.getItem(email)) {
+                alert("Este email já está cadastrado.");
+                return;
+            }
+
             lastUserId++;
             localStorage.setItem('lastUserId', lastUserId);
 
@@ -36,15 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem(email, JSON.stringify(userData));
 
             alert("Conta criada com sucesso!");
-            window.location.href = "encontreumPet.html";
+            window.location.href = "login.html";
         });
     }
 
-    
     const formLogin = document.getElementById("formLogin");
     if (formLogin) {
-        formLogin.addEventListener("submit", function(event) {
-            event.preventDefault(); 
+        formLogin.addEventListener("submit", function (event) {
+            event.preventDefault();
 
             const email = document.querySelector("[name='emailLog']").value;
             const senha = document.querySelector("[name='senhaLog']").value;
@@ -61,10 +64,35 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
+            // Armazena o usuário logado no localStorage
+            localStorage.setItem('loggedInUser', email);
+
             alert("Login bem-sucedido!");
             window.location.href = "encontreumPet.html";
         });
     }
+
 });
 
+/*  Função para obter o usuário logado
 
+    function getLoggedInUser() {
+        const loggedInUserEmail = localStorage.getItem('loggedInUser');
+        if (loggedInUserEmail) {
+            return JSON.parse(localStorage.getItem(loggedInUserEmail));
+        }
+        return null;
+    }
+
+    Exemplo de uso da função getLoggedInUser em outra página
+
+document.addEventListener("DOMContentLoaded", function() {
+    const user = getLoggedInUser();
+    if (user) {
+        console.log("Usuário logado:", user);
+    } else {
+        console.log("Nenhum usuário logado.");
+    }
+});
+
+*/
