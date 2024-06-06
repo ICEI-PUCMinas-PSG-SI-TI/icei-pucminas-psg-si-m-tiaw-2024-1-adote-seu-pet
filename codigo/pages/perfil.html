@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../css/stylePerfil.css">
+</head>
+
+<body>
+    <!--menu principal-->
+    <header>
+        <nav id="menu" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div id="logo">
+                    <img src="../imagens/tiawlogo.png" alt="" width="270">
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul id="itens-menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
+                                href="http://127.0.0.1:5500/encontreumPet.html">Encontre um Pet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
+                                href="http://127.0.0.1:5500/anuncdoa%C3%A7%C3%A3o.html">Anunciar
+                                Doação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
+                                href="http://127.0.0.1:5500/denAband.html">Denunciar
+                                Abandono</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
+                                href="http://127.0.0.1:5500/postagensDen.html">Postagens - Denúncias</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn" id="spbtn">Seu perfil</button>
+                    <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--Perfil e Barra de Pesquisa -->
+            <div id="divmain" class="col-lg-10 col-md-12 p-4">
+                <div class="d-flex justify-content-end">
+                    <h2 class="d-flex justify-content-start flex-grow-1">Seu Perfil</h2>
+                    <input type="text" id="searchInput" placeholder="Pesquisar...">
+                    <button onclick="search()">Pesquisar</button>
+                </div>
+                <!--Botões do perfil-->
+                <div class="container mr-3">
+                    <div class="btn-group" role="group" aria-label="Botões">
+                        <button type="button" class="btn btn-pink rounded-bottom">Suas Postagens</button>
+                        <button type="button" class="btn btn-pink rounded-bottom" id="editarInfoBtn"
+                            onclick="exibirFormulario('Editar informações:')">Editar informações:</button>
+                        <button type="button" class="btn btn-pink rounded-bottom">Salvar Senha</button>
+                    </div>
+                </div>
+                <!-- Formulário -->
+                <div class="container mt-3" id="formPerfil">
+                    <h3 id="formTitle">Suas informações:</h3>
+                    <form id="perfilForm">
+                        <div class="mb-3">
+                            <label for="fotoPerfil" class="form-label">Foto de Perfil:</label>
+                            <!-- Input da foto de perfil -->
+                            <input type="file" class="form-control" id="fotoPerfil" onchange="previewFoto()" disabled>
+                            <br>
+                            <!-- Preview da foto -->
+                            <img id="fotoPreview" src="#" alt="Preview da foto de perfil" class="mt-2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" id="nome" disabled placeholder="Digite seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" class="form-control" id="telefone" disabled placeholder="Digite seu telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" disabled placeholder="Digite seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="sobre" class="form-label">Sobre Você:</label>
+                            <textarea class="form-control" id="sobre" rows="5" disabled placeholder="Digite algo sobre você..."></textarea>
+                        </div>
+                        <div id="botoesPerfil" style="display: none;">
+                            <button type="submit" class="btn btn-primary" id="salvarBtn" disabled>Salvar</button>
+                            <button type="button" class="btn btn-danger" id="excluirFotoBtn" disabled>Excluir Foto</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Menu lateral-->
+            <div id="aside" class="col-lg-2 col-md-12 order-last">
+                <h4>Saiba mais!</h4>
+                <ul>
+                    <a class="asdlink" href="http://127.0.0.1:5500/adocaoResponsavel.html">
+                        <li>Adoção Responsável</li>
+                    </a>
+                    <a class="asdlink" href="#">
+                        <li>Dicas de cuidados com seu Pet!</li>
+                    </a>
+                </ul>
+                <img id="imgaside" src="../imagens/bannerlateral.jpgb" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/scriptPerfil.js"></script>
+</body>
+</html>

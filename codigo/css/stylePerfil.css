@@ -1,0 +1,186 @@
+#itens-menu {
+    margin: 0 auto;
+    
+}
+.hide{
+    display: none;
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #EE3CF1;
+    border-radius: 20px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+
+#menu {
+    background-color: #F7B9F9;
+}
+
+
+#menu button {
+    background-color: #EE3CF1;
+    color: white
+}
+
+#spbtn:hover{
+    background-color: #b72cb9;
+}
+
+/*Barra de Pesquisa*/
+.search-container {
+    margin-top: 5px;
+    text-align: right;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #b72cb9;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F7B9F9;
+}
+
+.btn-pink {
+    background-color: #b72cb9;
+    color: white;
+    border-color: #b72cb9;
+    margin-top: 20px; 
+    margin-right: 20px; 
+}
+
+.btn-pink:hover {
+    background-color: #F7B9F9;
+    border-color: #F7B9F9;
+    color: #fff;
+}
+
+
+.btn-group {
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link:hover {
+        background-color: #F7B9F9;
+    }
+
+    #logo,
+    #menu li {
+        margin: 0 auto;
+    }
+    #aside{
+       padding-top: 0;
+       margin: 0;
+    }
+    #aside h4{
+        text-align: center;
+    }
+
+    #imgaside{
+        display: none;
+    }
+
+}
+
+#aside a:hover{
+    color:#067217;
+    text-shadow:rgb(180, 167, 167) 2px 2px 2px;
+}
+
+#aside a {
+    text-decoration: none;
+    color: black;
+}
+
+#aside li {
+    background-image: url(imagens/listaside.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+#aside h4 {
+    margin-bottom: 40px;
+    color: #067217;
+    text-shadow: rgb(180, 167, 167) 2px 2px 2px;
+    text-align: center;
+}
+
+#aside {
+    background-image: linear-gradient(#FFEDFF, white);
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+#imgaside{
+    width: auto;
+    
+}
+
+.asdlink:hover{
+    color:#067217;
+}
+
+.btn-pink {
+    background-color: #b72cb9;
+    color: white;
+    border-color: #b72cb9;
+    margin-top: 20px; 
+    margin-right: 10px; 
+}
+
+.btn-pink:hover {
+    background-color: #F7B9F9;
+    border-color: #F7B9F9;
+}
+
+.btn-group {
+    margin-bottom: 10px;
+}
+
+#aside {
+    order: 2; 
+}
+
+#fotoPreview {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#formPerfil {
+    max-width: 600px; 
+}
+
+#sobre {
+    word-wrap: break-word;
+}
+
+#nome {
+    width: calc(100%); 
+}
+
+#botoesPerfil button {
+    margin-right: 10px; 
+}
