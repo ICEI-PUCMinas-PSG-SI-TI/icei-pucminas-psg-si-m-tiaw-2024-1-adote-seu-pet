@@ -10,7 +10,10 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <title>Perfil</title>
-    <link rel="stylesheet" href="../css/stylePerfil.css">
+    <link rel="stylesheet" href="../css/stylePerfilOng.css">
+    <!-- Adicionando Bootstrap Icons para ícones adicionais -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -48,7 +51,7 @@
                         </li>
                     </ul>
                     <button type="button" class="btn" id="spbtn">Seu perfil</button>
-                    <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
+                    <img src="../imagens/ftperfilExemplo.png" id="ftperfilOng" alt="" height="50" class="ms-2">
                 </div>
             </div>
         </nav>
@@ -59,7 +62,7 @@
             <!--Perfil e Barra de Pesquisa -->
             <div id="divmain" class="col-lg-10 col-md-12 p-4">
                 <div class="d-flex justify-content-end">
-                    <h2 class="d-flex justify-content-start flex-grow-1">Seu Perfil</h2>
+                    <h2 class="d-flex justify-content-start flex-grow-1">Seu Perfil ONG</h2>
                     <input type="text" id="searchInput" placeholder="Pesquisar...">
                     <button onclick="search()">Pesquisar</button>
                 </div>
@@ -73,32 +76,34 @@
                     </div>
                 </div>
                 <!-- Formulário -->
-                <div class="container mt-3" id="formPerfil">
+                <div class="container mt-3" id="formPerfilOng">
                     <h3 id="formTitle">Suas informações:</h3>
-                    <form id="perfilForm">
+                    <form id="perfilFormOng">
                         <div class="mb-3">
-                            <label for="fotoPerfil" class="form-label">Foto de Perfil:</label>
+                            <label for="fotoPerfilOng" class="form-label">Foto de Perfil:</label>
                             <!-- Input da foto de perfil -->
-                            <input type="file" class="form-control" id="fotoPerfil" onchange="previewFoto()" disabled>
+                            <input type="file" class="form-control" id="fotoPerfilOng" onchange="previewFotoOng()" disabled>
                             <br>
                             <!-- Preview da foto -->
-                            <img id="fotoPreview" src="#" alt="Preview da foto de perfil" class="mt-2">
+                            <img id="fotoPreviewOng" src="#" alt="Preview da foto de perfil" class="mt-2">
+                            <!-- Ícone de verificação -->
+                            <span class="bi bi-check-circle-fill verificado-icon"> ONG </span>
                         </div>
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="nome" disabled placeholder="Digite seu nome">
+                            <input type="text" class="form-control" id="nomeOng" disabled placeholder="Digite seu nome">
                         </div>
                         <div class="mb-3">
                             <label for="telefone" class="form-label">Telefone:</label>
-                            <input type="tel" class="form-control" id="telefone" disabled placeholder="Digite seu telefone">
+                            <input type="tel" class="form-control" id="telefoneOng" disabled placeholder="Digite seu telefone">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" disabled placeholder="Digite seu email">
+                            <input type="email" class="form-control" id="emailOng" disabled placeholder="Digite seu email">
                         </div>
                         <div class="mb-3">
                             <label for="sobre" class="form-label">Sobre Você:</label>
-                            <textarea class="form-control" id="sobre" rows="5" disabled placeholder="Digite algo sobre você..."></textarea>
+                            <textarea class="form-control" id="sobreOng" rows="5" disabled placeholder="Digite algo sobre você..."></textarea>
                         </div>
                         <div id="botoesPerfil" style="display: none;">
                             <button type="submit" class="btn btn-primary" id="salvarBtn" disabled>Salvar</button>
@@ -122,6 +127,7 @@
             </div>
         </div>
     </div>
-    <script src="../scripts/scriptPerfil.js"></script>
+    <script src="../scripts/scriptPerfilOng.js"></script>
 </body>
+
 </html>
