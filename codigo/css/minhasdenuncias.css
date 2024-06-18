@@ -1,0 +1,433 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #F7B9F9; 
+    height: 65px; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    width: 100%; 
+}
+
+.top-link {
+    position: absolute;
+    top: 55%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 8dvb;
+}
+
+.top-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.top-link a:last-child {
+    margin-right: 0; 
+}
+
+
+/* Sua Postagem */
+.sua-postagem {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    z-index: 999; 
+    font-size: 34px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px; 
+        top: 10%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+}
+
+.sua-postagem {
+    display: flex;
+    align-items: center; 
+    margin-top: -40px; 
+}
+
+.sua-postagem p {
+    margin-right: 10px; 
+}
+
+.btn-voltar {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f70d9d;
+    color: white;
+    margin-top: 140px; 
+    margin-bottom: 0; 
+    margin-left: 60px; 
+}
+
+.btn-editar {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f076b3;
+    color: white;
+    margin-top: 70px; 
+    margin-bottom: 10; 
+    margin-left: 90px; 
+}
+
+.btn-salvar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-excluir-foto {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF6347; 
+    color: white;
+    margin-top: 10px; 
+    margin-right: 10px; 
+}
+
+.btn-excluir {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #a639c2;
+    color: white;
+    margin-top: 70px; 
+    margin-bottom: 10; 
+    margin-left: 90px; 
+}
+
+.quadro-edicao {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 45px;
+    min-height: 200px; 
+    width: 78%; 
+    margin-left: 530px; 
+}
+
+.quadro-imagem {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 15px;
+    min-height: 210px; 
+    width: 45%; 
+    margin-top: -242px; 
+    margin-left: 70px;
+}
+
+/*Seu Perfil*/
+
+#seuPerfil {
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+#menu button {
+    background-color:#EE3CF1;
+    color: white
+}
+
+#spbtn {
+    position: fixed;
+    top: 14px; 
+    right: 55px;
+    z-index: 9999;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#ftperfil {
+    position: fixed;
+    top: 14px;
+    right: 6px; 
+    z-index: 9999; 
+    border-radius: 50%;
+    height: 40px;
+}
+
+#spbtn:hover{
+    background-color: #b72cb9;
+}
+
+.top-left-image {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 300px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-link,
+    #spbtn {
+        display: none; 
+    }
+
+    #ftperfil  {
+        display: none; 
+    }
+
+    .top-left-image {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        width: 50px; 
+        height: auto;
+        z-index: 1001; 
+    }
+}
+
+/*Logo*/
+
+.top-left-image {
+    position: fixed; 
+    top: 20px; 
+    left: 17px; 
+    z-index: 1001; 
+    width: 300px; 
+    height: auto;
+}
+
+/*Menu Lateral*/
+
+/* Estilos para os ícones na lista */
+.list-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+    position: relative;
+    top: -36px; 
+}
+
+/* Estilos gerais */
+.container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.content {
+    flex: 1;
+    padding: 20px; 
+}
+
+.sidebar {
+    width: 240px;
+    background: #333; 
+    color: white;
+    padding: 20px; 
+}
+
+/* Estilos para a lista do menu lateral */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center; 
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos adicionais para o menu lateral */
+#aside a:hover {
+    color: #067217;
+    text-shadow: rgb(180, 167, 167) 2px 2px 2px;
+}
+
+#aside a {
+    text-decoration: none;
+    color: black;
+}
+
+#aside li {
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+#aside h4 {
+    margin-bottom: 40px;
+    color: #067217;
+    text-shadow: rgb(180, 167, 167) 2px 2px 2px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#aside {
+    background-image: linear-gradient(#FFEDFF, white);
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+#imgaside {
+    width: auto;
+}
+
+.asdlink:hover {
+    color: #067217;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none; 
+    }
+}
+
+.advertise-adoption {
+    flex: 1;
+    text-align: center;
+}
+
+.advertise-adoption a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.advertise-adoption a:hover {
+    text-decoration: underline;
+}
+
+.top-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.top-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-link a {
+        display: none; /* Oculta os links */
+    }
+}
+
+/*Barra de Pesquisa*/
+
+.search-container {
+    position: absolute; 
+    top: 13%; 
+    left: 62%; 
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #b72cb9;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F7B9F9;
+}
+
+.foto {
+    width: 40%;
+    height: 260px;
+    background-color: #ccc;
+    margin-top: 60px; 
+    margin-left: 160px; 
+}
+
+
+/* Estilos para o modo de botão */
+.bottom-section.button-mode {
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px; 
+    text-align: center; 
+    font-size: 18px; 
+    background-color: #f0f0f0; 
+    color: #000; 
+}
+
+.quadro {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    display: none; 
+}

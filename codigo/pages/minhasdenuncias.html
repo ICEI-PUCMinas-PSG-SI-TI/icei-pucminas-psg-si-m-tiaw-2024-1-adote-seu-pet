@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Denuncias</title>
+    <link rel="stylesheet" href="minhasdenuncias.html">
+    <script src="scriptminhasdenuncias.js"></script>
+</head>
+<body>
+    <div class="top-bar"></div>
+
+    <div class="container">
+        <img src="../imagens/tiawlogo.png" alt="" width="270" class="top-left-image">
+        <div class="top-bar">
+            <div class="top-link">
+                <a href="#secao-pets">Encontre um pet</a>
+                <a href="#secao-outros">Anunciar Adoção</a>
+                <a href="#secao-abandono">Denunciar Abandono</a>
+                <a href="#secao-postagens">Postagens-Denuncias</a>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <button type="button" class="btn" id="spbtn">Seu perfil</button>
+            <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
+        </div>
+
+        <div class="container">
+            <!-- Seu conteúdo anterior -->
+        
+            <div class="sua-postagem">
+                <p>Sua Postagem</p>
+            </div>
+
+            <div class="button-container">
+                <button class="btn-voltar">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Voltar
+                </button>
+                <button type="button" class="btn-editar" id="editarInfoBtn"
+                            onclick="exibirFormulario('Editar informações:')">Editar informações:</button>
+                
+                            <button class="btn-excluir" onclick="resetarInformacoes()">Excluir Postagem</button>
+                        
+                                <button class="btn-excluir-foto" id="excluirFotoBtn" onclick="excluirFoto()" style="display: none;">Excluir Foto</button>
+                                <button class="btn-salvar" id="salvarInfoBtn" onclick="salvarInformacoes()">Salvar</button>
+                                
+                            
+                            <div id="quadro-edicao" class="quadro-edicao" contenteditable="false">
+                            
+                </div>
+
+                <div id="quadro-imagem" class="quadro-imagem">
+                    <p>Clique em "Editar informações" para adicionar uma imagem.</p>
+                    <input type="file" id="file-input" accept="image/*" style="display: none;" onchange="previewFoto(event)">
+                    <img id="fotoPreview" src="" alt="Preview da imagem" style="display:none; width: 100%; margin-top: 10px;">
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+
+        <div>
+          <!--Barra de Pesquisa-->
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <button onclick="search()">Pesquisar</button>
+        </div>
+    
+        <div id="searchResults">
+            <!-- resultados da pesquisa -->
+        </div>
+        
+        
+        <div id="editButton" class="bottom-section">
+            <!-- Conteúdo do botão "Editar Informações" -->
+        </div>
+
+        <div class="sidebar" id="aside">
+            <!-- MENU LATERAL -->
+            <h4>Saiba mais!</h4>
+            <ul>
+                <li><a class="asdlink" href="#">Adoção Responsável</a></li>
+                <img src="../imagens/listaside.png" alt="Ícone de adoção" class="list-icon">
+
+                <li><a class="asdlink" href="#">Dicas de cuidados com seu Pet!</a></li>
+                <img src="../imagens/listaside.png" alt="Ícone de cuidados" class="list-icon">
+            </ul>
+            <img id="imgaside" src="../imagens/bannerlateral.jpg" class="img-fluid" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
