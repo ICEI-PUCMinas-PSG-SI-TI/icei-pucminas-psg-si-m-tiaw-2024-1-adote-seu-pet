@@ -134,7 +134,7 @@
 }
 
 #aside li {
-    background-image: url(imagens/listaside.png);
+    background-image: url(../imagens/listaside.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 20px;
