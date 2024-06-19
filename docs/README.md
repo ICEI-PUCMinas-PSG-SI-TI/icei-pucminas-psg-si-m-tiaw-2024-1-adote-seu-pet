@@ -228,4 +228,10 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 
 
-## Implementação da Solução
+# Implementação da Solução
+A solução implementada conta com os seguintes módulos:
+○	Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+○	Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. 
+
+## Funcionalidades do Sistema
+
