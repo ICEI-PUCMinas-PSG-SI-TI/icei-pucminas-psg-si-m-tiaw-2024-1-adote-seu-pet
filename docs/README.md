@@ -19,14 +19,14 @@ A documentação do projeto inclui as seguintes seções:
 13. Relação de Ambientes de Trabalho
 14. Gestão de código fonte
 15. Gerenciamento do Projeto
+16. Implementação da Solução
 
 
 
 
 
 
-
-# Orientações gerais
+# Introdução
 
 Diversos animais são abandonados nas ruas diariamente. Muitas pessoas não têm condições para criar esses animais e acabam deixando-os em condições insalubres, vivendo nas ruas em meio à fome, às doenças e aos perigos. O abandono impacta diretamente a vida das pessoas, já que é responsável pela ocorrência de, por exemplo, problemas de saúde pública (proliferação de doenças).
 
@@ -169,6 +169,23 @@ RF-10: O site deve permitir que os usuários criem seu cadastro e façam login n
 RF-11: O site deve possuir a opção de editar dados pessoais do perfil de cada usuário (senha, número de contato, e-mail, entre outros) /(prioridade) alta.
 RF-12: O site deve possibilitar a opção de ser um adotante e a opção de anunciar um animal a ser adotado /(prioridade) alta.
 
+## Metodologia
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+## Gerenciamento do Projeto
+
+A equipe está organizada da seguinte maneira:
+●	Scrum Master: Arthur Faria Lopes
+●	Product Owner: Pedro Vaccaro de Souza Aragão
+●	Equipe de Desenvolvimento:
+○	Ana Clara Pereira Souza
+○	Fernanda Soares Santos Paiva
+○	Anael Ferreira de Oliveira
+○	Pedro Vaccaro de Souza Aragão 
+○	Arthur Faria Lopes
+○	David Gabriel Alves da Silva Ribeiro
+
 
 ## User Flow
 
@@ -209,21 +226,6 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 ![wrf17](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/d63f5461-8c2b-474d-a265-c424b9f15af2)
 ![wrf18](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/127249948/9d28859b-3d72-459e-84a0-2847326f7d2a)
 
-## Gestão de Projetos
 
- A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-A equipe está organizada da seguinte maneira:
-●	Scrum Master: Arthur Faria Lopes
-●	Product Owner: Pedro Vaccaro de Souza Aragão
-●	Equipe de Desenvolvimento:
-○	Ana Clara Pereira Souza
-○	Fernanda Soares Santos Paiva
-○	Anael Ferreira de Oliveira
-○	Pedro Vaccaro de Souza Aragão 
-○	Arthur Faria Lopes
-○	David Gabriel Alves da Silva Ribeiro
-
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub.
-As tarefas a serem realizadas pelo grupo estão disponíveis através da URL (https://github.com/orgs/ICEI-PUCMinas-PSG-SI-TI/projects/28)
-
+## Implementação da Solução
