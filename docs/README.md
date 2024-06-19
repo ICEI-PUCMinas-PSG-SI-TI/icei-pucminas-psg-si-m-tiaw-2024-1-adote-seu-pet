@@ -234,4 +234,62 @@ A solução implementada conta com os seguintes módulos:
 ○	Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. 
 
 ## Funcionalidades do Sistema
+### Cadastro de pets doados/abandonados (RF-04 e RF-12)
+Aluno responsável: Fernanda Soares
+Link do código: http:///
+As duas telas a seguir têm a função de permitir aos usuários cadastrar postagens de algum animal que tenham disponível para adoção ou de algum pet que foi encontrado em situação de rua e precisa ser resgatado. Esses dados são armazenados no LocalStorage.
+
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/b1485779-7456-4bfd-8421-18b83684f285)
+
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/b0b4c8d2-a481-47ce-b76e-4c9e8fc965d9)
+
+#### Requisitos atendidos
+• RF-04 - 
+Criação de postagens que informem os usuários sobre a existência de algum animal em situação de rua em Belo Horizonte (denúncias de abandono). 
+• RF-12 - Qualquer usuário pode criar postagens de doação de animais na aplicação 
+
+
+#### Artefatos da funcionalidade
+●	denAband.html, anuncdoação.html
+●	scriptDoac.js, scriptAband.js, script PostagensDoac.js, script PostagensDen.js
+●	styleGeral.css
+
+#### Estrutura de Dados
+{
+	"petAdoc": [
+		{
+			"carac": “Filhote de yorkshire, muito dócil, macho, porte pequeno.” ,
+			“especie": "cachorro",
+			"idade": "filhote – 3 meses",
+			"raca": "yorkshire",
+			"enderecoAdoc": "bairro União",
+			"contato": {
+				“emailAd”: “laura@gmail.com”,
+				“telAd”: “31 9874-5621”
+			},
+			“fotoAd”: “https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp”
+
+		}
+	],
+	“objDadosDen”: [
+		{
+			“lastId”: 1,
+			“info”: “Cachorro encontrado na rua”,
+			“telAband”: "3345-8795",
+         	 	“emailAband”: "renata45@gmail.com",
+         	 	“fotoAband”: "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp",
+          		“autor”: "Renata Campos"
+		}
+	]
+}
+
+### Exibição detalhada de dados de pet abandonado
+Aluno responsável: Fernanda Soares
+Essa tela permite a visualização completa de tudo que foi cadastrado pelo usuário na página “Denunciar Abandono”, após clicar no botão Ver Detalhes em alguma das postagens da página Postagens – Denúncias.
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/9a60e81b-b8d9-4374-a6ba-7001d149aa3f)
+
+#### Artefatos da funcionalidade
+●	perfilDetalhadoDEN.html
+●	DetalhesDen.js
+●	styleGeral.css
 
