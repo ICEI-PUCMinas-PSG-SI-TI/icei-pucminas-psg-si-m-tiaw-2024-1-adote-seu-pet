@@ -295,3 +295,65 @@ Essa tela permite a visualização completa de tudo que foi cadastrado pelo usu�
 ●	DetalhesDen.js
 ●	styleGeral.css
 
+
+### Página de adoção consciente e visualização das próprias postagens por um usuário(RF-06 e RF-08)
+Aluno responsável: Ana Clara Pereira Souza.
+Link do código: http:///  
+A tela RF-06 a tem a função de mostrar informações sobre a adoção consciente de animais e cuidados para os tutores terem com seu animal de estimação. A tela RF-08 tem a função de mostrar as postagens que o usuário publicou. Esses dados são armazenados no LocalStorage.
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/552b0592-611a-4fb4-b123-20fab90d9aca)
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/bcc1fc32-8d75-4a9a-b6a5-cba9bfc73a02)
+
+
+#### Requisitos atendidos
+• RF-06 - Texto principal contendo a importância da adoção de animais em situação de rua. Botões que ao clicar contém textos sobre importância das ONGs, zoonoses e adestramento. Uma barra de pesquisa para pesquisar os textos.  
+• RF-08 - O usuário consegue ver as postagens que publicou.
+
+
+#### Artefatos da funcionalidade RF-06
+●minhaspostagens.html.  
+•scriptminhaspostagens.js, scriptsalvarpostagens.js, scriptlogin.js, scriptdenunciasdeabandono.js.  
+●minhaspostagens.css.
+
+#### Artefatos da funcionalidade RF-08
+●adocResponsavel.html.  
+●scripttexto.js, scriptbarradepesquisa.js.  
+●styleAdocResponsavel.css.
+
+#### Estrutura de Dados RF-06
+TextoDics = { 
+TextoAdoCons = “texto”,
+ TextoD = “texto”
+}
+		
+#### Estrutura de Dados RF-08
+[
+{
+        "id": 1,
+        "info": "Cachorro encontrado na rua",
+        "telAband": "3345-8795",
+        "emailAband": "renata45@gmail.com",
+        "fotoAband": "https://blog.cobasi.com.br/wp-content/uploads/2021/08/AdobeStock_413016961.webp",
+        "autor": "Renata Campos"
+    },
+    {
+        "id": 2,
+        "info": "Gato abandonado em frente à escola",
+        "telAband": "3345-8796",
+        "emailAband": "marcos23@gmail.com",
+        "fotoAband": "https://pbs.twimg.com/media/FN6lMZ5XEAUGRcs?format=jpg&name=large",
+        "autor": "Marcos Silva"
+    },
+    {
+        "id": 3,
+        "info": "Cachorro encontrado no parque",
+        "telAband": "3345-8797",
+        "emailAband": "ana89@gmail.com",
+        "fotoAband": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrg4EIy_QoXLKzcRsae0GcJ8pd7lf8QhVmaQ&s",
+        "autor": "Ana Oliveira"
+    }
+]
+ 
+
+## Avaliação da Solução
+
+
