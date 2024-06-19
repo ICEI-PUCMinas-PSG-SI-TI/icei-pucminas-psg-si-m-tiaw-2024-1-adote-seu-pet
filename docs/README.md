@@ -26,7 +26,7 @@ A documentação do projeto inclui as seguintes seções:
 
 
 
-# Introdução
+## Introdução
 
 Diversos animais são abandonados nas ruas diariamente. Muitas pessoas não têm condições para criar esses animais e acabam deixando-os em condições insalubres, vivendo nas ruas em meio à fome, às doenças e aos perigos. O abandono impacta diretamente a vida das pessoas, já que é responsável pela ocorrência de, por exemplo, problemas de saúde pública (proliferação de doenças).
 
@@ -290,6 +290,10 @@ As duas telas a seguir têm a função de permitir aos usuários cadastrar posta
 	]  
 }
 
+#### Instruções de Acesso
+1. Abra um navegador de Internet e informe a seguinte URL: ...  
+
+
 
 ### Exibição detalhada de dados de pet abandonado
 Aluno responsável: Fernanda Soares.  
@@ -300,6 +304,12 @@ Essa tela permite a visualização completa de tudo que foi cadastrado pelo usu�
 ●	perfilDetalhadoDEN.html  
 ●	DetalhesDen.js  
 ●	styleGeral.css  
+
+#### Requisitos atendidos
+•RF-04 - Criação de postagens que informem os usuários sobre a existência de algum animal em situação de rua em Belo Horizonte (denúncias de abandono). 
+
+#### Instruções de Acesso
+1. Abra um navegador de Internet e informe a seguinte URL: ...  
 
 
 ### Página de adoção consciente e visualização das próprias postagens por um usuário(RF-06 e RF-08)
@@ -358,8 +368,22 @@ TextoAdoCons = “texto”,
         "autor": "Ana Oliveira"  
     }  
 ]  
- 
+#### Instruções de Acesso
+1. Abra um navegador de Internet e informe a seguinte URL: ... 
 
-## Avaliação da Solução
+
+
+## Vídeo do Projeto
+
+
+# Referências Bibliográficas
+Esta seção apresenta as referências bibliográficas utilizadas no projeto.  
+• Amazon Web Services. O que é Scrum?. Disponível em: https://aws.amazon.com/pt/what-is/scrum/#:~:text=O%20Scrum%20%C3%A9%20um%20framework%20para%20fazer%20o%20trabalho%20no,Agile%20para%20gerenciamento%20de%20projetos. Acesso em: 20 mar 2024.  
+• Pedigree. Você sabe a importância da adoção responsável? [Online]. Disponível em: https://www.pedigree.com.br/adocao/dicas-e-cuidados/voce-sabe-a-importancia-da-adocao-responsavel. Acesso em: 24 mar. 2024.  
+• O Tempo. Belo Horizonte tem população de 48 mil animais de rua. Disponível em: https://www.otempo.com.br/cidades/belo-horizonte-tem-populacao-de-48-mil-animais-de-rua-1.2857246.  Acesso em: 24 mar. 2024.  
+• Blog PetAnjo. #PareDeAbandonar: conscientização sobre abandono de animais. Disponível em: https://petanjo.com/blog/paredeabandonar-conscientizacao-sobre-abandono-de-animais/. Acesso em: 24 mar. 2024.  
+
+
+
 
 
