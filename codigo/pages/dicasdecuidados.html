@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Cuidado</title>
+    <link rel="stylesheet" href="../css/dicasdecuidados.css">
+    <script src="../scripts/dicasdecuidados.js"></script>
+    <link rel="stylesheet" href="../css/styleGeral.css">
+</head>
+<body>
+    <div class="top-bar"></div>
+
+    <div class="container"></div>
+   <a href="../pages/encontreumPet.html"> <img src="../imagens/tiawlogo.png" alt="Logo" width="270" class="top-left-image"></a>
+    <div class="top-bar">
+        <div class="top-link">
+            <a href="../pages/encontreumPet.html">Encontre um pet</a>
+            <a href="../pages/anuncdoação.html">Anunciar Adoção</a>
+            <a href="../pages/denAband.html">Denunciar Abandono</a>
+            <a href="../pages/postagensDen.html">Postagens-Denuncias</a>
+        </div>
+        </div>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <a href="../pages/perfil.html"> <button type="button" class="btn" id="spbtn">Seu perfil</button> </a>
+            <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
+
+        </div>
+
+     <!--Menu lateral-->
+            <div id="aside" class="sidebar">
+                <h4>Saiba mais!</h4>
+                <ul>
+                    <a class="asdlink" href="../pages/adocaoResponsavel.html">
+                        <li>Adoção Responsável</li>
+                    </a>
+                    <a class="asdlink" href="../pages/dicasdecuidados.html">
+                        <li>Dicas de cuidados com seu Pet!</li>
+                    </a>
+                </ul>
+                <img id="imgaside" src="../imagens/bannerlateral.jpg" class="img-fluid" alt="">
+            </div>
+       <div>
+        <div class="centered-image">
+            <img src="../imagens/fotodicas.jpg" alt="Imagem Central">
+        </div>
+        <div>
+            <h2 class="text-central">Dicas para oferecer todo o carinho que seu pet merece!</h2>
+            <p class="texto-baixo">    Atenção e Presença: Dedique tempo de qualidade ao seu pet todos os dias. <br>Brinque com ele, faça carinho e esteja presente. Seu pet valoriza a sua companhia e a atenção que você oferece.</p>
+            <p class="texto-baixo2"> Brincadeiras e Exercícios: Garanta que seu pet tenha oportunidades para se exercitar e brincar. <br> Isso é fundamental para a saúde física e mental. Brinquedos interativos, passeios ao ar livre e jogos de buscar são ótimos para isso.</p>
+            <p class="texto-baixo3"> Alimentação Adequada: Ofereça uma dieta balanceada e adequada para as necessidades do seu pet. <br> Consulte um veterinário para orientações sobre a melhor ração e possíveis suplementos.</p>
+        </div>
+       </div>
+    </div>
+</div>
+</div>
+    <!--Barra de Pesquisa-->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar...">
+        <button onclick="searchStreet()">Pesquisar</button>
+    </div>
+
+    <div id="searchResults">
+        <!-- Aqui serão exibidos os resultados da pesquisa -->
+    </div>
+</div>
+
+<!--Mapa-->
+
+<div class="map-container">
+    <h2 class="map-title"></h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d354.33784302736836!2d-43.90594132530884!3d-19.852186221153833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69b0d8f5f7be3%3A0xcea9daea1021ec3e!2sPet%20Shop%20Mundo%20das%20Patas!5e0!3m2!1sen!2sbr!4v1716138113791!5m2!1sen!2sbr" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="info-box">
+    <button class="botao" onclick="mostrarInformacoes()">Pet Shops da região</button>
+    <div id="informacoes" style="display: none;">
+        <p class="pet1">Pet Shop Mundo das Patas</p>
+        <p class="rua1"> Rua Castanhal 68 - São Gabriel, Belo Horizonte</p>
+        <p class="pet2">Recanto dos Bichos</p>
+        <p class="rua2">Rua Nossa Senhora de Lourdes, 54 - São Gabriel, Belo Horizonte - MG, 31980-290</p>
+        <p class="pet3">Pet Shop Silvania</p>
+        <p class="rua3">R. Santa Ana, 33 - São Gabriel, Belo Horizonte - MG, 31980-620</p>
+    </div>
+</div> 
+
+</body>
+</html>
