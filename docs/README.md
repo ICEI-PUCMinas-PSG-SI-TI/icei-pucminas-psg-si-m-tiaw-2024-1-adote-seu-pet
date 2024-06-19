@@ -235,7 +235,7 @@ A solução implementada conta com os seguintes módulos:
 
 ## Funcionalidades do Sistema
 ### Cadastro de pets doados/abandonados (RF-04 e RF-12)
-Aluno responsável: Fernanda Soares
+Aluno responsável: Fernanda Soares.
 Link do código: http:///
 As duas telas a seguir têm a função de permitir aos usuários cadastrar postagens de algum animal que tenham disponível para adoção ou de algum pet que foi encontrado em situação de rua e precisa ser resgatado. Esses dados são armazenados no LocalStorage.
 
@@ -255,6 +255,7 @@ Criação de postagens que informem os usuários sobre a existência de algum an
 ●	styleGeral.css
 
 #### Estrutura de Dados
+
 {
 	"petAdoc": [
 		{
@@ -283,8 +284,9 @@ Criação de postagens que informem os usuários sobre a existência de algum an
 	]
 }
 
+
 ### Exibição detalhada de dados de pet abandonado
-Aluno responsável: Fernanda Soares
+Aluno responsável: Fernanda Soares.
 Essa tela permite a visualização completa de tudo que foi cadastrado pelo usuário na página “Denunciar Abandono”, após clicar no botão Ver Detalhes em alguma das postagens da página Postagens – Denúncias.
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/9a60e81b-b8d9-4374-a6ba-7001d149aa3f)
 
