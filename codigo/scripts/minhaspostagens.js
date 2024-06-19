@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <h5 class="card-title">${post.info}</h5>
                     <p class="card-text">Telefone para contato: ${post.telAband}</p>
                     <p class="card-text">Email para contato: ${post.emailAband}</p>
-                    <button type="button" class="btn btn-custom">Ver Detalhes</button>
+                 <a href="../pages/perfilDetalhadoDEN.html?id=${post.id}">   <button type="button" class="btn btn-custom btnDetalhes"> Ver Detalhes</button> </a>
                 </div>
             </div>
         `;
@@ -63,3 +63,4 @@ document.addEventListener("DOMContentLoaded", function() {
         container.appendChild(card); 
     });
 });
+

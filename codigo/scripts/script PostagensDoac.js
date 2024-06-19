@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
           enderecoAdoc: "bairro União",
           emailAd: "laura@gmail.com",
           telAd: "31 9874-5621",
-          fotoAd: ""
+          fotoAd: "https://blog.polipet.com.br/wp-content/uploads/2023/04/Screenshot_2-1.jpg"
         }]
       }
     }
