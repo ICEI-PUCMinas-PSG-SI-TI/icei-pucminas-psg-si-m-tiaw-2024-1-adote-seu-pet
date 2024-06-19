@@ -45,10 +45,10 @@ Diante do exposto, o problema que se busca combater com este projeto é a exist�
 
 O objetivo geral deste trabalho é a criação de uma plataforma de adoção que possibilite a troca entre as pessoas que anunciarão animais disponíveis – gatos, cães, entre outros – e as pessoas que os adotarão, na cidade de Belo Horizonte.
 
-Como objetivos específicos, podemos ressaltar:
-●	Apresentação dos perfis de cada animal a ser adotado, para que os adotantes conheçam suas características, que devem ser levadas em conta no processo de adoção, além dos dados necessários para a conclusão da adoção.  
-●	Permitir a qualquer usuário a opção de anunciar a existência animais em situação de rua, informando-se o endereço onde foram encontrados, de modo a possibilitar seu resgate e posterior adoção.  
-●	Permitir a filtragem do tipo de animal desejado, para que o usuário encontre de maneira mais rápida e fácil um bichinho que se adeque aos seus requisitos.  
+Como objetivos específicos, podemos ressaltar:  
+●	Apresentação dos perfis de cada animal a ser adotado, para que os adotantes conheçam suas características, que devem ser levadas em conta no processo de adoção, além dos dados necessários para a conclusão da adoção.     
+●	Permitir a qualquer usuário a opção de anunciar a existência animais em situação de rua, informando-se o endereço onde foram encontrados, de modo a possibilitar seu resgate e posterior adoção.    
+●	Permitir a filtragem do tipo de animal desejado, para que o usuário encontre de maneira mais rápida e fácil um bichinho que se adeque aos seus requisitos.    
 ●	Possibilitar um processo de adoção responsável e consciente, no qual os indivíduos envolvidos tenham as condições necessárias para adotar e cuidar de um animal de estimação, para garantir a ele uma melhor qualidade de vida.  
 
 
