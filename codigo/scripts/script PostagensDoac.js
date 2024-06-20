@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       novaAdoc.classList.add('novaadoc');
       novaAdoc.innerHTML = `<img src="${objDadosAdoc.petAdoc[i].fotoAd}" alt="Foto do Pet" width="200"> <p>${objDadosAdoc.petAdoc[i].carac}</p>`;
       let btnDetalhesAdoc = document.createElement('button');
-      btnDetalhesAdoc.innerHTML = '<a href="#">Ver detalhes</a>';
+      btnDetalhesAdoc.innerHTML = '<a href="../pages/anuncAbert.html">Ver detalhes</a>';
       btnDetalhesAdoc.classList.add('btnDetalhes');
       novaAdoc.appendChild(btnDetalhesAdoc);
       tela.appendChild(novaAdoc);
