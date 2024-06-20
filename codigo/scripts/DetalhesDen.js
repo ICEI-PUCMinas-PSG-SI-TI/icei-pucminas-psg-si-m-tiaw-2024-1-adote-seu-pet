@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         let divUser = document.getElementById('postadoPorDen');
-        divUser.innerHTML = `<p class="ms-4 fs-5">${postagem.autor}</p> <a href="#"> <button class="btnDetalhes text-white ms-4"> Ver perfil</button> </a>`
+        divUser.innerHTML = `<p class="ms-4 fs-5">${postagem.autor}</p> <a href="../pages/visualizar_perfil_usuario.html"> <button class="btnDetalhes text-white ms-4"> Ver perfil</button> </a>`
 
         var divFt = document.getElementById("divFotoDen");
         if(postagem.fotoAband){
