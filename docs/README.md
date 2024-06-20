@@ -373,6 +373,30 @@ TextoAdoCons = “texto”,
 1. Abra um navegador de Internet e informe a seguinte URL: ... 
 
 
+### Página de Perfil de outro usuário e tela denúncia de abandono
+Aluno responsável: Arthur Faria Lopes  
+Link do código: http:///  
+1- Tela que facilite o encontro de animais que podem ser adotados ou resgatados 2- Visualização do perfil de quem realiza as postagens de doação/denúncia  
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/97a09cfc-2527-44ac-9bde-186345566410)
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/edbd6f9e-0a31-476e-9dc4-f6fa83b1b301)
+
+#### Requisitos atendidos
+Visualização do perfil de outros usuários, com os dados fornecidos pelo dono do perfil no cadastro  
+visualização do perfil de quem realiza as postagens de doação/denúncia de abandono e suas informações de contato  
+
+#### Artefatos da Funcionalidade
+•denuncia_abandono.html,perfil_ong.html,visualizar_perfil_usuario  
+•resgate.js, perfil_usuario.js, perfil_ong.js  
+•perfil.css, perfil_ong.css, resgate.css
+
+#### Estrutura de Dados
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/f713cbed-fede-4365-858a-0aa91059d427)
+
+
+#### Instruções de Acesso
+1.
+
+
 
 ## Vídeo do Projeto
 
