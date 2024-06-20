@@ -10,7 +10,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <title>Visualizar perfil da ONG</title>
-    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="../css/perfil.css">
+    <link rel="stylesheet" href="../css/styleGeral.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <nav id="menu" class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div id="logo">
-                    <img src="imagens/tiawlogo.png" alt="" width="270">
+                <a href="../pages/encontreumPet.html">  <img src="../imagens/tiawlogo.png" alt="" width="270"> </a>
                 </div>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -30,25 +31,25 @@
                     <ul id="itens-menu" class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
-                                href="http://127.0.0.1:5500/encontreumPet.html">Encontre um Pet</a>
+                                href="../pages/encontreumPet.html">Encontre um Pet</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
-                                href="http://127.0.0.1:5500/anuncdoa%C3%A7%C3%A3o.html">Anunciar
+                                href="../pages/anuncdoa%C3%A7%C3%A3o.html">Anunciar
                                 Doação</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
-                                href="http://127.0.0.1:5500/denAband.html">Denunciar
+                                href="../pages/denAband.html">Denunciar
                                 Abandono</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white fw-medium ms-3 mx-3" aria-current="page"
-                                href="http://127.0.0.1:5500/postagensDen.html">Postagens - Denúncias</a>
+                                href="../pages/postagensDen.html">Postagens - Denúncias</a>
                         </li>
                     </ul>
                     <button type="button" class="btn" id="spbtn">Seu perfil</button>
-                    <img src="imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
+                    <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
                 </div>
             </div>
         </nav>
@@ -77,7 +78,7 @@
                             <label for="fotoPerfil" class="form-label">Foto de Perfil:</label>
                             <!-- Imagem de perfil estática -->
                             <br>
-                            <img id="fotoPreview" src="imagens/foto_ong.png" alt="Foto de perfil" class="mt-2" width="150">
+                            <img id="fotoPreview" src="../imagens/foto_ong.png" alt="Foto de perfil" class="mt-2" width="150">
                         </div>
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome da ONG:</label>
@@ -118,18 +119,18 @@
             <div id="aside" class="col-lg-2 col-md-12 order-last">
                 <h4>Saiba mais!</h4>
                 <ul>
-                    <a class="asdlink" href="http://127.0.0.1:5500/adocaoResponsavel.html">
+                    <a class="asdlink" href="../pages/adocaoResponsavel.html">
                         <li>Adoção Responsável</li>
                     </a>
-                    <a class="asdlink" href="#">
+                    <a class="asdlink" href="../pages/adocaoResponsavel.html">
                         <li>Dicas de cuidados com seu Pet!</li>
                     </a>
                 </ul>
-                <img id="imgaside" src="imagens/bannerlateral.jpg" class="img-fluid" alt="">
+                <img id="imgaside" src="../imagens/bannerlateral.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
-    <script src="js/perfil.js"></script>
+    <script src="../scripts/perfil.js"></script>
 </body>
 
 </html>
