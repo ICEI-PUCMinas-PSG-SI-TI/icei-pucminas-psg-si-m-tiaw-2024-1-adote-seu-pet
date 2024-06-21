@@ -11,6 +11,7 @@
         crossorigin="anonymous"></script>
     <title>Perfil</title>
     <link rel="stylesheet" href="../css/stylePerfil.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -116,12 +117,16 @@
                             <label for="sobre" class="form-label">Sobre Você:</label>
                             <textarea class="form-control" id="sobre" rows="5" disabled placeholder="Digite algo sobre você..."></textarea>
                         </div>
+                        
                         <div id="botoesPerfil" style="display: none;">
                             <button type="submit" class="btn btn-primary" id="salvarBtn" disabled>Salvar</button>
                             <button type="button" class="btn btn-danger" id="excluirFotoBtn" disabled>Excluir Foto</button>
                         </div>
+
                     </form>
                 </div>
+
+                <a href="../pages/index.html"> <button id="logout" class="m-4"> <span class="fs-5"><i class='bx bx-log-out'></i> Sair</span> </button> </a>
             </div>
             <!--Menu lateral-->
             <div id="aside" class="col-lg-2 col-md-12 order-last">
