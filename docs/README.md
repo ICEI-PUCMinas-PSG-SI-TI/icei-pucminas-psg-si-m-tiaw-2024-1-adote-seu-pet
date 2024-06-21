@@ -177,7 +177,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 Ambiente: Repositório de código fonte; Plataforma: Github; Link de Acesso: https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet.git  
 Ambiente: Projeto de Interface e Wireframes; Plataforma: Figma; Link de Acesso:	https://www.figma.com/file/2FaY9BoDi90U6QzzLMIIeg/Adote-seu-Pet-Wireframes?type=design&node-id=0%3A1&mode=design&t=0hAqnzBG1MO7BpYY-1  
-Ambiente: Gerenciamento do Projeto; Plataforma: GitHub; Link de Acesso:	https://trello.com/b/AidriqyV  
+Ambiente: Gerenciamento do Projeto; Plataforma: GitHub; Link de Acesso: https://trello.com/b/UV2HSj7V/adote-seu-pet 
 
 
 ## Gerenciamento do Projeto
