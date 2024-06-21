@@ -50,7 +50,23 @@
                                 href="../pages/postagensDen.html">Postagens - Denúncias</a>
                         </li>
                     </ul>
-                    <a href="../pages/perfilOng.html"> <button type="button" class="btn" id="spbtn">Seu perfil</button> </a>
+                    <button type="button" class="btn" id="spbtn">Seu perfil</button>
+                    <script>
+                        let user = localStorage.getItem('loggedInUser');
+                        let userData = localStorage.getItem(user)
+                        userDataJSON = JSON.parse(userData)
+                        console.log(userDataJSON.isONG)
+
+                        let btnPerfil = document.getElementById('spbtn');
+                        btnPerfil.addEventListener('click', function(){
+                            if(!userDataJSON.isONG){
+                                window.location.href = "perfil.html";
+                            }
+                            else{
+                                window.location.href = "perfilOng.html"
+                            }
+                        })
+                    </script>
                     <img src="../imagens/ftperfilExemplo.png" id="ftperfilOng" alt="" height="50" class="ms-2">
                 </div>
             </div>

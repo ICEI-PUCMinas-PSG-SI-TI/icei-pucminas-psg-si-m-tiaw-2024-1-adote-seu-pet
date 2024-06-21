@@ -46,7 +46,23 @@
                         </li>
                     </ul>
 
-                    <a href="../pages/perfil.html"> <button type="button" class="btn" id="spbtn">Seu perfil</button> </a>
+                     <button type="button" class="btn" id="spbtn">Seu perfil</button> 
+                    <script>
+                        let user = localStorage.getItem('loggedInUser');
+                        let userData = localStorage.getItem(user)
+                        userDataJSON = JSON.parse(userData)
+                        console.log(userDataJSON.isONG)
+
+                        let btnPerfil = document.getElementById('spbtn');
+                        btnPerfil.addEventListener('click', function(){
+                            if(!userDataJSON.isONG){
+                                window.location.href = "perfil.html";
+                            }
+                            else{
+                                window.location.href = "perfilOng.html"
+                            }
+                        })
+                    </script>
                     <!-- de acordo com a imagem enviada pelo usuário // tirar? -->
                     <img src="../imagens/ftperfilExemplo.png" id="ftperfil" alt="" height="50" class="ms-2">
 
