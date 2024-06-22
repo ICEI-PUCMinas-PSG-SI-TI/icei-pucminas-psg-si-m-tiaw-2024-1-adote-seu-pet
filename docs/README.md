@@ -291,10 +291,6 @@ As duas telas a seguir têm a função de permitir aos usuários cadastrar posta
 	]  
 }
 
-#### Instruções de Acesso
-1. Abra um navegador de Internet e informe a seguinte URL: ...  
-
-
 
 ### Exibição detalhada de dados de pet abandonado
 Aluno responsável: Fernanda Soares.  
@@ -308,9 +304,7 @@ Essa tela permite a visualização completa de tudo que foi cadastrado pelo usu�
 
 #### Requisitos atendidos
 •RF-04 - Criação de postagens que informem os usuários sobre a existência de algum animal em situação de rua em Belo Horizonte (denúncias de abandono). 
-
-#### Instruções de Acesso
-1. Abra um navegador de Internet e informe a seguinte URL: ...  
+  
 
 
 ### Página de adoção consciente e visualização das próprias postagens por um usuário(RF-06 e RF-08)
@@ -369,8 +363,6 @@ TextoAdoCons = “texto”,
         "autor": "Ana Oliveira"  
     }  
 ]  
-#### Instruções de Acesso
-1. Abra um navegador de Internet e informe a seguinte URL: ... 
 
 
 ### Página de Perfil de outro usuário e tela denúncia de abandono
@@ -393,8 +385,82 @@ visualização do perfil de quem realiza as postagens de doação/denúncia de a
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/f713cbed-fede-4365-858a-0aa91059d427)
 
 
-#### Instruções de Acesso
-1.
+### Edição de informações pessoais do perfil do usuário e ONG e criação de perfil ONGs (RF-05 e RF-11)
+Aluno responsável: Anael Ferreira de Oliveira  
+Link do código: http:///  
+As duas telas têm a finalidade de autorizar a edição dos detalhes de perfil do usuário, seja ele uma ONG ou não. No entanto, a Tela RF-05 também facilita a criação de perfis classificados como ONGs.
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/2c3e22c3-482e-417f-adf9-2111e52f6ea9)
+
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/aa10da9c-c522-479a-96a3-41452f6a4753)
+
+
+#### Requisitos atendidos
+•RF-05 - O site deve permitir a criação de perfis caracterizados/identificados como ONGs  
+•RF-11 - O site deve possuir a opção de editar dados pessoais do perfil de cada usuário (senha, número de contato, e-mail, entre outros)  
+
+
+#### Artefatos da Funcionalidade
+•RF-05:  
+- perfilOng.html    
+- stylePerfilOng.css  
+- scriptPerfilOng.js  
+
+•RF-11:  
+- perfil.html  
+- stylePerfil.css  
+- scriptPerfil.js  
+
+#### Estrutura de Dados RF-05
+{  
+  "usuario": {  
+    "perfil": {  
+      "foto": "https://exemplo.com/fotos/usuario123.jpg",  
+      "nome": "João Silva",  
+      "telefone": "+55 11 98765-4321",  
+      "email": "joao.silva@exemplo.com",  
+      "sobre": "Amo animais e estou comprometido em encontrar lares amorosos para todos os pets que resgato. Tenho experiência em cuidar de diferentes tipos de animais e estou sempre disponível para ajudar com informações e suporte."  
+    }  
+  }  
+}  
+
+#### Estrutura de Dados RF-11
+{  
+  "ong": {  
+    "perfil": {  
+      "foto": "https://exemplo.com/fotos/ong_abc.jpg",  
+      "nome": "ONG ABC",  
+      "telefone": "+55 11 12345-6789",  
+      "email": "contato@ongabc.org",  
+      "sobre": "A ONG ABC é dedicada ao resgate, cuidado e adoção de animais abandonados. Nossa missão é proporcionar uma vida melhor para os pets e encontrar lares amorosos para eles. Estamos comprometidos em promover o bem-estar animal e sensibilizar a comunidade sobre a importância da adoção responsável."  
+    }  
+  }  
+}  
+
+
+### Página de Dicas de Cuidados e Minha Postagem denúncias (RF-09 e RF-10)
+Aluno responsável: David Gabriel Alves da Silva Ribeiro  
+Link do código: http:///  
+1-	Tela que dá dicas ao usuário de como cuidar de seu pet    
+2-	Visualização das denúncias realizadas e possibilidade de editá-las  
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/52d6d916-550c-409d-8bc5-5dd406303674)
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/4490e242-f35b-4476-b179-0d812fb99b89)
+
+
+#### Requisitos atendidos
+•	RF10 – Na página de “Dicas de Cuidados”, deverá haver um mapa que mostre algumas clínicas veterinárias e pet shops próximos em BH  
+•	RF09 – Permitir que o usuário faça pesquisas sobre o conteúdo desejado  
+•	Visualização e edição das denúncias realizadas pelo próprio usuário.  
+
+
+#### Artefatos das Funcionalidades
+•	dicasdecuidado.html, minhasdenuncias.html   
+•	dicadecuidado.css, minhasdenuncias.css  
+•	dicasdecuidados.js, scriptminhasdenuncias.js  
+
+
+#### Estrutura de Dados RF-10
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/b4dda6c8-a4bd-4f35-aeac-c3ba499c1b29)
+
 
 
 
