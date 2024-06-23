@@ -238,8 +238,8 @@ A solução implementada conta com os seguintes módulos:
 ○	Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.  
 ○	Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON.   
 • Hospedagem: O site utiliza a plataforma do Netlify como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:  
-adote-seu-pet.netlify.app
-
+[adote-seu-pet.netlify.app
+](https://adote-seu-pet.netlify.app/)
 ## Funcionalidades do Sistema
 ### Cadastro de pets doados/abandonados (RF-04 e RF-12)
 Aluno responsável: Fernanda Soares.   
