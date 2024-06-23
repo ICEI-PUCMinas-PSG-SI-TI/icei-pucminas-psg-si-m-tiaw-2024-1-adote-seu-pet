@@ -17,5 +17,4 @@ O objetivo geral deste trabalho é a criação de uma plataforma de adoção que
 * Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
-
-
+Acesse a URL https://adote-seu-pet.netlify.app/ e crie uma conta. Após fazer Login na conta cadastrada, utilize os botões dos menus principal e lateral para navegar pelas páginas! 
