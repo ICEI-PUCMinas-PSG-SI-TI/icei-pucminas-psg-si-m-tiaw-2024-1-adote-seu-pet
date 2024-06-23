@@ -154,8 +154,6 @@ Leonardo: Garantir que meu cão encontre um novo dono responsável para que seu 
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
-
 RF-01: O site deve ser um facilitador para o processo de adoção de animais em Belo Horizonte /(prioridade) alta.  
 RF-02: O site deve apresentar, para cada animal, um perfil contendo suas características gerais e uma foto /(prioridade) alta.  
 RF-03: O site deve permitir aos adotantes a visualização do perfil de quem realiza as postagens de doação e suas informações de contato, com o objetivo de trazer maior segurança ao adotante /(prioridade) alta.  
@@ -205,7 +203,7 @@ O diagrama apresentado na Figura mostra o fluxo de interação do usuário pelas
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:  
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:  
 ●	Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);  
 ●	Conteúdo - apresenta o conteúdo da tela em questão;  
 ●	Barra lateral - apresenta os elementos de navegação secundária
@@ -239,12 +237,12 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 A solução implementada conta com os seguintes módulos:  
 ○	Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.  
 ○	Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON.   
-• Hospedagem: 
+• Hospedagem: O site utiliza a plataforma do Netlify como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:  
+
 
 ## Funcionalidades do Sistema
 ### Cadastro de pets doados/abandonados (RF-04 e RF-12)
-Aluno responsável: Fernanda Soares.  
-Link do código: http:///  
+Aluno responsável: Fernanda Soares.   
 As duas telas a seguir têm a função de permitir aos usuários cadastrar postagens de algum animal que tenham disponível para adoção ou de algum pet que foi encontrado em situação de rua e precisa ser resgatado. Esses dados são armazenados no LocalStorage.  
 
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/b1485779-7456-4bfd-8421-18b83684f285)
@@ -308,8 +306,7 @@ Essa tela permite a visualização completa de tudo que foi cadastrado pelo usu�
 
 
 ### Página de adoção consciente e visualização das próprias postagens por um usuário(RF-06 e RF-08)
-Aluno responsável: Ana Clara Pereira Souza.  
-Link do código: http:///    
+Aluno responsável: Ana Clara Pereira Souza.    
 A tela RF-06 a tem a função de mostrar informações sobre a adoção consciente de animais e cuidados para os tutores terem com seu animal de estimação. A tela RF-08 tem a função de mostrar as postagens que o usuário publicou. Esses dados são armazenados no LocalStorage.  
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/552b0592-611a-4fb4-b123-20fab90d9aca)
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/bcc1fc32-8d75-4a9a-b6a5-cba9bfc73a02)
@@ -366,8 +363,7 @@ TextoAdoCons = “texto”,
 
 
 ### Página de Perfil de outro usuário e tela denúncia de abandono
-Aluno responsável: Arthur Faria Lopes  
-Link do código: http:///  
+Aluno responsável: Arthur Faria Lopes   
 1- Tela que facilite o encontro de animais que podem ser adotados ou resgatados 2- Visualização do perfil de quem realiza as postagens de doação/denúncia  
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/97a09cfc-2527-44ac-9bde-186345566410)
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/edbd6f9e-0a31-476e-9dc4-f6fa83b1b301)
@@ -387,7 +383,6 @@ visualização do perfil de quem realiza as postagens de doação/denúncia de a
 
 ### Edição de informações pessoais do perfil do usuário e ONG e criação de perfil ONGs (RF-05 e RF-11)
 Aluno responsável: Anael Ferreira de Oliveira  
-Link do código: http:///  
 As duas telas têm a finalidade de autorizar a edição dos detalhes de perfil do usuário, seja ele uma ONG ou não. No entanto, a Tela RF-05 também facilita a criação de perfis classificados como ONGs.
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/2c3e22c3-482e-417f-adf9-2111e52f6ea9)
 
@@ -438,8 +433,7 @@ As duas telas têm a finalidade de autorizar a edição dos detalhes de perfil d
 
 
 ### Página de Dicas de Cuidados e Minha Postagem denúncias (RF-09 e RF-10)
-Aluno responsável: David Gabriel Alves da Silva Ribeiro  
-Link do código: http:///  
+Aluno responsável: David Gabriel Alves da Silva Ribeiro   
 1-	Tela que dá dicas ao usuário de como cuidar de seu pet    
 2-	Visualização das denúncias realizadas e possibilidade de editá-las  
 ![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-adote-seu-pet/assets/163454026/52d6d916-550c-409d-8bc5-5dd406303674)
